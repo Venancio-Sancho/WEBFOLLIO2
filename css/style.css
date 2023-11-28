@@ -103,18 +103,17 @@ a:focus {
 }
 
 /*header section*/
-.hero_area {
-  position: relative;
-  background-color: #020230;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+
+  .header_section {
+background-color: rgba(0, 0, 0, 0.7); /* Adapte a cor de fundo conforme necessário */
+color: white;
+padding: 1em;
+text-align: center;
+background-size: auto; /* Altere esta linha para 'auto' */
 }
+
+
+
 
 .sub_page .hero_area {
   min-height: auto;
@@ -127,7 +126,7 @@ a:focus {
 
 .navbar-brand span {
   font-weight: bold;
-  color: #ffffff;
+  color: #0c0c0c;
   font-size: 24px;
   text-transform: uppercase;
 }
@@ -149,7 +148,7 @@ a:focus {
   height: 35px;
   padding: 0;
   border: none;
-  color: #ffffff;
+  color: #0f0f0f;
   margin: 0 20px;
 }
 
@@ -169,7 +168,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #ffffff;
+  background-color: #0a0a0a;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -184,7 +183,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #252525;
   top: -10px;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
@@ -376,7 +375,7 @@ a:focus {
 .slider_section .carousel_btn-box .carousel-control-prev:hover,
 .slider_section .carousel_btn-box .carousel-control-next:hover {
   background-color: #ffffff;
-  color: #000000;
+  color: #ffffff;
 }
 
 .about_section .row {
@@ -390,15 +389,18 @@ a:focus {
 }
 
 .about_section .detail-box p {
-  color: #999;
+  color: black;
   margin-top: 15px;
+  width: 100%;
+  margin: 10;
+  height: 30;
 }
 
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
   background-color: #ff4646;
-  color: #ffffff;
+  color: #c92828;
   border-radius: 5px;
   border: 1px solid #ff4646;
   -webkit-transition: all .3s;
@@ -978,7 +980,7 @@ a:focus {
   background-color: transparent;
   width: 100%;
   height: 45px;
-  color: #ffffff;
+  color: #d60000;
   outline: none;
 }
 
@@ -1027,7 +1029,7 @@ a:focus {
 
 .footer_section p {
   color: #ffffff;
-  padding: 20px 0;
+  padding: 40px 0;
   margin: 0;
   border-top: 1px solid #ffffff;
 }
@@ -1035,4 +1037,28 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/fff.jpg");
+  /* Substitua 'sua-imagem-de-fundo.jpg' pelo caminho da sua imagem */
+  background-size: small;
+  background-position: center;
+  color: #fff;
+  /* Cor do texto em contraste com a imagem de fundo */
+
+}
+
+section 
+
+h1 {
+  color: orange;
+}
+.text-red {
+  color: red; /* ou qualquer outra cor vermelha desejada */
+}
+.text-goldenrod {
+  color: goldenrod; /* ou qualquer outra cor dourada desejada */
+}
+
