@@ -1055,14 +1055,40 @@ section
 h1 {
   color: orange;
 }
+h2 {
+  color: orange;
+}
+p {
+  color: red;
+}
 .text-red {
   color: red; /* ou qualquer outra cor vermelha desejada */
 }
 .text-goldenrod {
   color: goldenrod; /* ou qualquer outra cor dourada desejada */
 }
-}
+
 .text-black {
   color: black; /* ou qualquer outra cor dourada desejada */
 }
+
+
+    /* Adicionando estilos CSS para exibir os posts na horizontal */
+    .price_section {
+      display: flex;
+    
+      overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse a largura máxima */
+      margin: 0 auto; /* Centraliza a seção na página */
+     
+    }
+
+    .blog-post {
+      flex: 0 0 100px; /* Define a largura máxima dos posts */
+      margin-right: 20px; /* Adiciona um espaço entre os posts */
+      box-sizing: border-box; /* Inclui padding e borda no tamanho total do elemento */
+    
+      
+    }
+    /* Adicione outros estilos conforme necessário para personalização */
+ 
 
